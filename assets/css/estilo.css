@@ -260,6 +260,13 @@ footer{
     background-color: rgba(0, 90, 0, 0.589);
 }
 
+.anim{
+    transition: all 0.5 ease;
+}
+.anim:hover{
+    transform: scale(1.1);
+}
+
 
 /*grid com 12 colunas*/
 .col-1 {width: 8.33%; }
